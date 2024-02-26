@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GLightbox</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+      body {
+        background: #f0f0f0;
+        min-height: 100vh;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        margin-block: 30px;
+      }
+
+      .container {
+        display: flex;
+        max-width: 1200px;
+        margin-inline: auto;
+        column-gap: 20px;
+        flex-wrap: wrap;
+      }
+
+      .container .col {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+      }
+
+      .container .col {
+        width: calc(100% / 3 - 20px);
+      }
+
+      .container a {
+        display: inline-block;
+        width: 100%;
+      }
+
+      .container img {
+        width: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Gallery using GLightbox</h1>
+
+    <div class="container">
+      <div class="col">
+        <a
+          href="https://images.unsplash.com/photo-1708852154434-d6436655b99d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="glightbox-image"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1708852154434-d6436655b99d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://www.youtube.com/embed/ewZ_YWbIWXI?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Fwww.w3schools.com&widgetid=1"
+          class="glightbox-video"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://images.unsplash.com/photo-1708852154434-d6436655b99d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="glightbox-image"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1708852154434-d6436655b99d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15080.550682579289!2d72.8790781358613!3d19.10161544009492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c871a4889c93%3A0xf2e0c857a7574114!2sTilak%20Nagar%2C%20Lokmanya%20Tilak%20Nagar%2C%20Saki%20Naka%2C%20Mumbai%2C%20Maharashtra%20400072!5e0!3m2!1sen!2sin!4v1708932652181!5m2!1sen!2sin" class="glightbox-iframe">
+          <img
+            src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFwfGVufDB8fDB8fHww"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://images.unsplash.com/photo-1708852154434-d6436655b99d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="glightbox-image"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1708852154434-d6436655b99d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </a>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15080.550682579289!2d72.8790781358613!3d19.10161544009492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c871a4889c93%3A0xf2e0c857a7574114!2sTilak%20Nagar%2C%20Lokmanya%20Tilak%20Nagar%2C%20Saki%20Naka%2C%20Mumbai%2C%20Maharashtra%20400072!5e0!3m2!1sen!2sin!4v1708932652181!5m2!1sen!2sin" class="glightbox-iframe">
+          <img
+            src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFwfGVufDB8fDB8fHww"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="col">
+        <a
+          href="https://www.youtube.com/embed/ewZ_YWbIWXI?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Fwww.w3schools.com&widgetid=1"
+          class="glightbox-video"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </a>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15080.550682579289!2d72.8790781358613!3d19.10161544009492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c871a4889c93%3A0xf2e0c857a7574114!2sTilak%20Nagar%2C%20Lokmanya%20Tilak%20Nagar%2C%20Saki%20Naka%2C%20Mumbai%2C%20Maharashtra%20400072!5e0!3m2!1sen!2sin!4v1708932652181!5m2!1sen!2sin" class="glightbox-iframe">
+          <img
+            src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFwfGVufDB8fDB8fHww"
+            alt=""
+          />
+        </a>
+        <a
+          href="https://www.youtube.com/embed/ewZ_YWbIWXI?controls=0&modestbranding=1&rel=0&showinfo=0&loop=0&fs=0&hl=en&enablejsapi=1&origin=https%3A%2F%2Fwww.w3schools.com&widgetid=1"
+          class="glightbox-video"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+    <script>
+      const image = GLightbox({
+        selector: ".glightbox-image",
+        touchNavigation: true,
+      });
+
+      const video = GLightbox({
+        selector : ".glightbox-video"
+      })
+
+      const iframe = GLightbox({
+        selector : ".glightbox-iframe"
+      })
+    </script>
+  </body>
+</html>
